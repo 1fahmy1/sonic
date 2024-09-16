@@ -1,6 +1,7 @@
 const fs = require('fs');
 const readlineSync = require('readline-sync');
 const colors = require('colors');
+const axios = require('axios'); // Add axios for HTTP requests
 
 const {
   sendSol,
